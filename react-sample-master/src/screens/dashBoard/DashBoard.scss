@@ -1,0 +1,62 @@
+.dashBoardBody {
+    border: 1px solid;
+    height: 100%;
+    padding: 20px;
+}
+.upperBodyContent {
+    display: flex;
+
+    & > div:nth-child(1) {
+        display: flex;
+        flex: 1;
+        height: 150px;
+        border: 1px solid;
+        margin-right: 76px;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    & > div:nth-child(2) {
+        display: flex;
+        flex: 1;
+        height: 150px;
+        border: 1px solid;
+        margin-right: 76px;
+        border-radius: 20px;
+        justify-content: center;
+        align-items: center;
+    }
+    & > div:nth-child(3) {
+        display: flex;
+        flex: 1;
+        height: 150px;
+        border-radius: 20px;
+        border: 1px solid;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.lowerBodyContent {
+    display: flex;
+    height: calc(100% - 150px);
+    padding: 20px 0 0 0;
+    & > div:nth-child(1) {
+        display: flex;
+        flex: 1;
+        height: 100%;
+        border: 1px solid;
+        justify-content: center;
+        align-items: center;
+        margin-right: 10px;
+        border-radius: 20px;
+    }
+    & > div:nth-child(2) {
+        display: flex;
+        flex: 1;
+        border: 1px solid;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+}

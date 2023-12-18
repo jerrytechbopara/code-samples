@@ -1,0 +1,43 @@
+.linearButtonBody {
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, var(--yellow100), var(--red70));
+    cursor: pointer;
+
+    & button {
+        padding: 18px 0;
+        border: none;
+        font-size: 24px;
+        font-family: 'robotoRegularFlex';
+        background-color: transparent;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 50px;
+    }
+}
+
+.normalButtonBody {
+    width: 550px;
+    height: auto;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--yellow100);
+    cursor: pointer;
+
+    & button {
+        padding: 18px 0 18px 0px;
+        border: none;
+        font-size: 25px;
+        line-height: 28px;
+        background-color: transparent;
+        cursor: pointer;
+        width: 100%;
+        border-radius: 50px;
+    }
+}

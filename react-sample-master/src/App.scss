@@ -1,0 +1,71 @@
+@import '../src/constants/variables';
+
+@font-face {
+    font-family: 'poppinsRegular';
+    font-weight: 400;
+    src: url(../src/assets/fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'poppinsBold';
+    font-weight: 400;
+    src: url(../src/assets/fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'poppinsSemibold';
+    font-weight: 400;
+    src: url(../src/assets/fonts/Poppins-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'popPinsLight';
+    font-weight: 400;
+    src: url(../src/assets/fonts/Poppins-Light.ttf);
+}
+
+@font-face {
+    font-family: 'poppinsMedium';
+    font-weight: 400;
+    src: url(../src/assets/fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'robotoLight';
+    font-weight: 400;
+    src: url(../src/assets/fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'robotoBold';
+    font-weight: 400;
+    src: url(../src/assets/fonts/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'robotoMedium';
+    font-weight: 400;
+    src: url(../src/assets/fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'robotoRegular';
+    font-weight: 400;
+    src: url(../src/assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'robotoRegularFlex';
+    font-weight: 400;
+    src: url(../src/assets/fonts/RobotoFlex-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}

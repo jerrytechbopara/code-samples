@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var express_1 = require("express");
+var organizationControllers_1 = require("../controllers/organizationControllers");
+var RequestValidation_1 = require("../classes/RequestValidation");
+var requestValidationConfig_1 = require("../config/requestValidationConfig");
+var organizationOuter = (0, express_1.Router)();
+organizationOuter.post("/add", RequestValidation_1.RequestValidation.validateFunction(requestValidationConfig_1.requestValidationConfig.addOrganization), organizationControllers_1.saveOrganizationController);
+organizationOuter.get("/get", organizationControllers_1.getOrganizationController);
+exports.default = organizationOuter;
